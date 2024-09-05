@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - PGY</title>
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <script src="js/eye.js" defer></script>
+    <script src="js/displayitems.js" defer></script>
+    <script src="js/click.js" defer></script>
+</head>
+<body>
+    <div class="sidebar hide">
+        <div class="sidebar-con">
+            <div class="flexs logo">
+                <img src="images/icons/logo-black.png" alt="">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <li class="drop">
+                    <div class="flexs">
+                        <p>Shop</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="textt">
+                        <a href=""><p>Tops</p></a>
+                        <a href=""><p>Shirt</p></a>
+                        <a href=""><p>Pants</p></a>
+                        <a href=""><p>Shorts</p></a>
+                    </div>
+                </li>
+                <a href="index.html"><li>Men</li></a>
+                <a href="index.html"><li>Women</li></a>
+                <a href="contact.html"><li>Contact us</li></a>
+            </ul>
+            <div class="sidebar-bottom">
+                <form action="https://formsubmit.co/9741008c1db46a878b78e553840268f6" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="box">
+                <input type="hidden" name="_cc" value="Porceslymeafrofit@gmail.com">
+
+                    <div class="newsletter-con">
+                    <p>Newsletter</p>
+                    <p>Join our newsletter and get to know about discounts, drops, offers and much more</p>
+                    <div class="newsletter">
+                        <input type="text" placeholder="Email"><br>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="locate loc">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>10, atunrashe street, ishaga road, surulere</p>
+                
+            </div>
+            <div class="locate">
+                <i class="fa-solid fa-envelope"></i>
+               <p>Porceslymeafrofits@gmail.com</p> 
+            </div>
+            <div class="flexc ee">
+                <p>Quick Links</p>
+                
+                    <div class="flexc">
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/porceslyme_afrofits?igsh=MW9oOW1mbTRxYzZocw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="tel:+2348131903787"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="view"></div>
+    <div class="top-bar">
+        <div class="top-bar-con flexs">
+            <div class="icons">
+                <a href="https://www.instagram.com/porceslyme_afrofits?igsh=MW9oOW1mbTRxYzZocw%3D%3D&utm_source=qr">
+                <img src="images/icons/instagram.png" alt="img-instagram">
+                    
+                </a>
+                <a href="">
+                <img src="images/icons/whatsapp.png" alt="img-whatsapp">
+                </a>
+                <a href="">
+                <img src="images/icons/gmail.png" alt="img-whatsapp">
+                </a>
+            </div>
+            <div class="col">
+                <p><span>Latest Collection: </span>  2024 Elegant Collection</p>
+            </div>
+            <div class="pol">
+                <p>Porceslymeafrofits@gmail.com | +234 813 190 3787</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="navbar-con flexs">
+            <div class="">
+                <a href="index.html"><img src="images/icons/logo-black.png" alt=""></a>
+            </div>
+            <ul class="flexc">
+                <a href="index.html"><li>Home</li></a>
+                <a href="index.html"><li>Men</li></a>
+                <a href="index.html"><li>Women</li></a>
+                <a href="shop.html"><li>Shop</li></a>
+            </ul>
+            <div class="contact">
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="hamburg">  
+                <div class="inner-ham "></div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="all">
+        <div class="all-header flexc middle">
+            <a href="index.html"><p>Home</p></a>
+            <p>/</p>
+            <a href="shop.html"><p> Shop </p></a>
+        </div>
+    </div>
+
+    <div class="shop">
+        <div class="shop-con">
+            <div class="text-header">
+                <p>Shop For All - Exclusive Collection</p>
+                <p>Exclusive Collections</p>
+            </div>
+            <div class="quick-nav middle">
+                <button class="blck" onclick="displayall()">All Items</button>
+                <button class="" id="shirt" onclick="displayshirt()">Shirt</button>
+                <button class="" id="tops" onclick="displaytop()">Tops</button>
+                <button class="" id="shorts" onclick="displayshort()">Shorts</button>
+                <button class="" id="Round" onclick="displayround()">Round necks</button>
+                <button class="" id="jacket" onclick="displayjacket()">Jackets</button>
+                <button class="" id="pant" onclick="displaypants()">Pants</button>
+                <button class="" onclick="displaytank()">Tank top</button>
+            </div>
+            <ul class="middle flexc items">
+                <li class="pant">
+                    <div class="img-li">
+                        <img src="images/jean-p.jpg" alt="">
+                        <img src="images/jean-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Pleated stripzip denim pant</p>
+                        <p>#27,500</p>
+                    </div>
+                </li>
+                <li class="shirt round">
+                    <div class="img-li">
+                        <img src="images/eko-p.jpg" alt="">
+                        <img src="images/eko-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                               <div class="icon-con click">
+                                <i class="fa-regular fa-eye"></i>
+                               </div>
+                               <div class="icon-con">
+                                <i class="fa-regular fa-heart"></i>
+                               </div>
+                               <div class="icon-con">
+                                <i class="fa-solid fa-repeat"></i>
+                               </div>
+                            </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Eko city quatered round neck</p>
+                        <p>#22,500</p>
+                    </div>
+                </li>
+                <li class="shirt">
+                    <div class="img-li">
+                        <img src="images/lace-p.jpg" alt="">
+                        <img src="images/lace-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+        
+                        <p>Men</p>
+                        <p>Lace zipper shirt</p>
+                        <p>#18,000</p>
+                    </div>
+                </li>
+                <li class="shirt">
+                    <div class="img-li">
+                        <img src="images/tree-w.jpg" alt="">
+                        <img src="images/tree-p.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Beachtree camp collar shirt</p>
+                        <p>#15,000</p>
+                    </div>
+                </li>
+                <li class="jacket">
+                    <div class="img-li">
+                        <img src="images/black-p.jpg" alt="">
+                        <img src="images/black-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Aboki knit Faceless denim leather jacket</p>
+                        <p>#30,000</p>
+                    </div>
+                </li>
+                <li class="short">
+                    <div class="img-li">
+                        <img src="images/12-p.jpg" alt="">
+                        <img src="images/12-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Rough Patch Short</p>
+                        <p>#13,500</p>
+                    </div>
+                </li>
+                <li class="jacket">
+                    <div class="img-li">
+                        <img src="images/1-p.jpg" alt="">
+                        <img src="images/1-w.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Sands of time jacket</p>
+                        <p>#35,000</p>
+                    </div>
+                </li>
+                <li class="short">
+                    <div class="img-li">
+                        <img src="images/2-p.jpg" alt="">
+                        <img src="images/2-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Combatant short </p>
+                        <p>#9,500</p>
+                    </div>
+                </li>
+                <li class="shirt">
+                    <div class="img-li">
+                        <img src="images/3-p.jpg" alt="">
+                        <img src="images/3-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Carton-vintage shirts</p>
+                        <p>#14,500</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img-li">
+                        <img src="images/4-p.jpg" alt="">
+                        <img src="images/4-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Diesel-flinch armless covered</p>
+                        <p>#25,000</p>
+                    </div>
+                </li>
+                <li class="round">
+                    <div class="img-li">
+                        <img src="images/5-p.jpg" alt="">
+                        <img src="images/5-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Custom-logo round neck</p>
+                        <p>#15,000</p>
+                    </div>
+                </li>
+                <li class="short">
+                    <div class="img-li">
+                        <img src="images/6-p.jpg" alt="">
+                        <img src="images/6-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Diesel-flinch cotton shorts</p>
+                        <p>#15,000</p>
+                    </div>
+                </li>
+                <li class="jacket">
+                    <div class="img-li">
+                        <img src="images/7-p.jpg" alt="">
+                        <img src="images/7-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Armless Hunt-jacket</p>
+                        <p>#12,000</p>
+                    </div>
+                </li>
+                <li class="shirt">
+                    <div class="img-li">
+                        <img src="images/8-p.jpg" alt="">
+                        <img src="images/8-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Twill collar’d SS shirt</p>
+                        <p>#16,500</p>
+                    </div>
+                </li>
+                <li class="shirt">
+                    <div class="img-li">
+                        <img src="images/9-p.jpg" alt="">
+                        <img src="images/9-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Custom-buttoned sweatshirt</p>
+                        <p>#30,000</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img-li">
+                        <img src="images/10-p.jpg" alt="">
+                        <img src="images/10-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Airale PORCESLYME full cotton tank top  </p>
+                        <p>#11,000</p>
+                    </div>
+                </li>
+                <li class="short">
+                    <div class="img-li">
+                        <img src="images/13-p.jpg" alt="">
+                        <img src="images/13-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men <p>
+                        <p>Engraved-pocket embroidered shorts</p>
+                        <p>#17,000</p>
+                    </div>
+                </li>
+                <li class="pant jacket">
+                    <div class="img-li">
+                        <img src="images/11-p.jpg" alt="">
+                        <img src="images/11-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Aboki knit Faceless denim jacket.</p>
+                        <p>#27,000</p>
+                    </div>
+                </li>
+                <li class="pant">
+                    <div class="img-li">
+                        <img src="images/14-p.jpg" alt="">
+                        <img src="images/14-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Slith-striped crepe pants</p>
+                        <p>#14,500</p>
+                    </div>
+                </li>
+                <li class="shirt">
+                    <div class="img-li">
+                        <img src="images/15-p.jpg" alt="">
+                        <img src="images/15-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Creed Sunray Shirt</p>
+                        <p>#13,000</p>
+                    </div>
+                </li>
+                <li class="round">
+                    <div class="img-li">
+                        <img src="images/16-p.jpg" alt="">
+                        <img src="images/16-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Love in Lagos Quarter’d round neck</p>
+                        <p>#27,500</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img-li">
+                        <img src="images/17-p.jpg" alt="">
+                        <img src="images/17-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Custom-logo tank top</p>
+                        <p>#11,000</p>
+                    </div>
+                </li>
+                <li class="jacket">
+                    <div class="img-li">
+                        <img src="images/18-p.jpg" alt="">
+                        <img src="images/18-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Wooden combat jacket</p>
+                        <p>#25,000</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img-li">
+                        <img src="images/19-p.jpg" alt="">
+                        <img src="images/19-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Bold logo tank top</p>
+                        <p>#11,000</p>
+                    </div>
+                </li>
+                <li class="shirt">
+                    <div class="img-li">
+                        <img src="images/20-p.jpg" alt="">
+                        <img src="images/20-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Rough patch shirt</p>
+                        <p>#13,500</p>
+                    </div>
+                </li>
+                <li class="pant">
+                    <div class="img-li">
+                        <img src="images/21-p.jpg" alt="">
+                        <img src="images/21-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Wood-colored combat pants</p>
+                        <p>#19,500</p>
+                    </div>
+                </li>
+                <li class="pant">
+                    <div class="img-li">
+                        <img src="images/22-p.jpg" alt="">
+                        <img src="images/22-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Melancholic track suit pant</p>
+                        <p>#15,000</p>
+                    </div>
+                </li>
+                <li class="pant">
+                    <div class="img-li">
+                        <img src="images/23-p.jpg" alt="">
+                        <img src="images/23-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Creed Sunray pant</p>
+                        <p>#18,000</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img-li">
+                        <img src="images/24-p.jpg" alt="">
+                        <img src="images/24-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Crotch-zipper polo</p>
+                        <p>#18,000</p>
+                    </div>
+                </li>
+                <li class="white">
+                    <div class="img-li">
+                        <img src="images/28-p.jpg" alt="">
+                        <img src="images/28-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Custom Tank-top Ash</p>
+                        <p>#11,000</p>
+                    </div>
+                </li>
+                <li class="white">
+                    <div class="img-li">
+                        <img src="images/26-p.jpg" alt="">
+                        <img src="images/26-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Custom Tank-top Black</p>
+                        <p>#11,000</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img-li">
+                        <img src="images/25-p.jpg" alt="">
+                        <img src="images/25-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Melancholic tracksuit.</p>
+                        <p>#27,000</p>
+                    </div>
+                </li>
+                <li class="white">
+                    <div class="img-li">
+                        <img src="images/27-p.jpg" alt="">
+                        <img src="images/27-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Custom Tank-top Plain Black</p>
+                        <p>#11,000</p>
+                    </div>
+                </li>
+                <li class="white">
+                    <div class="img-li">
+                        <img src="images/29-p.jpg" alt="">
+                        <img src="images/29-l.jpg" alt="">
+                        <div class="text">
+                            <div class="sale">
+                                <p>SALE</p>
+                            </div>
+                            <div class="select-icon">
+                                <div class="icon-con click">
+                                 <i class="fa-regular fa-eye"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon-con">
+                                 <i class="fa-solid fa-repeat"></i>
+                                </div>
+                             </div>
+                            <a href="http://wa.me/2348131903787"><span>Place Order</span></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="icon-con click2">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="icon-con">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="icon-con">
+                           <a href="http://wa.me/2348131903787"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="last-bottom">
+                        <p>Men</p>
+                        <p>Custom Tank-top white</p>
+                        <p>#11,000</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="delivery">
+            <div class="middle">
+                <div class="delivery-text">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <p>Fast delivery</p>
+                </div>
+                <div class="delivery-text">
+                    <i class="fa-solid fa-medal"></i>
+                    <p>High Quality Material</p>
+                </div>
+                <div class="delivery-text">
+                    <i class="fa-solid fa-headset"></i>
+                    <p>24/7 Online</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-con">
+                <div class="newsletter-con">
+                    <p>Newsletter</p>
+                    <p>Join our newsletter and get to know about discounts, drops, offers and much more</p>
+                    <div class="newsletter">
+                        <form action="https://formsubmit.co/9741008c1db46a878b78e553840268f6" method="POST">
+                            <input type="hidden" name="_cc" value="Porceslymeafrofit@gmail.com">
+                            <input type="hidden" name="_captcha" value="false">
+                             <input type="hidden" name="_template" value="box">
+                            <input type="text" placeholder="Email" name="email">
+                        <button>Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="pgy middle">
+                        <div class="address">
+                            <h4>Address</h4>
+                            <li>10, atunrashe street, <br> ishaga road surulere</li>
+                        </div>
+                        <ul>
+                            <h4>Useful Link</h4>
+                            <a href="index.html"><li>Home</li></a>
+                            <a href=""><li>Men</li></a>
+                            <a href=""><li>Women</li></a>
+                            <a href="shop.html"><li>Shop</li></a>
+                            <a href="contact.html"><li>Contact Us</li></a>
+                        </ul>
+                        <ul>
+                            <h4>Information</h4>
+                            <a href="shop.html?click=1"><li>Pants</li></a>
+                            <a href="shop.html?click=2"><li>Shorts</li></a>
+                            <a href="shop.html?click=3"><li>Jackets</li></a>
+                            <a href="shop.html?click=4"><li>T-shirts</li></a>
+                            <a href="shop.html?click=5"><li>Round Nectks</li></a>
+                        </ul>
+                        <ul>
+                            <h4>Opening Hours - shop </h4>
+                            <li>Mon - Fri: 7:00 AM - 11:00 PM</li>
+                            <li>Sat - Sun: 10:00 AM - 8:00 PM</li>
+                            <li>Online- orders: Always Available</li>
+                        </ul>
+                    
+                </div>
+                <div class="bottom-bottom">
+                    <div class="middle">
+                        <img src="images/icons/white-logo.png" alt="">
+                        <p>© 2024, Porceslyme Clothing Brand</p>
+                        <div class="flexc">
+                            <a href="https://www.instagram.com/porceslyme_afrofits?igsh=MW9oOW1mbTRxYzZocw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="http://wa.me/2348131903787"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="tel:+2348131903787"><i class="fa-solid fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    
+    </body>
+</html>
