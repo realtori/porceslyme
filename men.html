@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://www.porceslyme.store/images/back.jpg" />
+    <title>PCY | Shop</title>
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <link rel="shortcut icon" href="images/icons/logo-black.png" type="image/x-icon">
+    <script src="js/eye.js" defer></script>
+    <script src="js/footer.js" defer></script>
+
+</head>
+<body>
+    <div class="item-info">
+        <p>Item successfully added to cart</p>
+    </div>
+    <div class="item-info2">
+        <p>Item sucsessfully removed from cart</p>
+    </div>
+    
+    <div class="cart-con ">
+        <div class="align">
+            <div class="close-cart">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                </svg>
+            </div>
+            <div class="cart">
+                <p>Cart</p>
+                <div class="cart-products">
+                   
+                   
+                </div>
+                <div class="totalprice flexs">
+                   <div class="flexc">
+                       <img src="" alt="">
+                       <p>Total Price: </p>
+                   </div>
+                   <p class="price">NGN 0</p>
+                </div>
+               <div class="proceed">
+                   <p>Proceed</p>
+               </div>
+           </div>
+        </div>
+        
+    </div>
+    <div class="proceed-con">
+        <div class="align">
+            <div class="close-proceed">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                </svg>
+            </div>
+            <div class="proceed-input">
+                <p>Complete Order</p>
+                <div class="receive">
+                    <p>Who will receive this item?</p>
+                    <div class="span">
+                        <span>
+                            Myself<input type="radio" name="receive" id="">
+                        </span>
+                        <span>
+                            Someone Else<input type="radio" name="receive" id="">
+                        </span>
+                    </div>
+
+                    <div class="contact-details">
+                        <p>Your Details</p>
+                        <input type="text" name="name" placeholder="Full Name" >
+                        <input type="number" name="number" placeholder="Whatsapp Number">
+                        <input type="email" name="emai" placeholder="Email">
+                    </div>
+                    <div class="delivery-details">
+                        <p>Delivery Details</p>
+                        <input type="text" name="state" placeholder="State">
+                        <textarea name="address" id="" placeholder="Delivery Address"></textarea>
+                        <textarea name="address" id="" placeholder="Other Info"></textarea>
+                    </div>
+                    <div class="submit-control">
+                        <button class="back">Previous page</button>
+                        <button class="place-order">Place Order</button>
+                    </div>
+                </div>
+                
+            </div>
+           
+    </div>
+        
+    </div>
+    <div class="finalise-con">
+        <div class="align">
+            <div class="close-proceed">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                </svg>
+            </div>
+            <div class="finalise">
+                <p>Finalise Order</p>
+                <div class="">
+                    <span class="notice">
+                        <img src="images/icons/182_warning_notice_error-512.webp" alt="">
+                        <p>Kindly make payment in order to validate your order and avoid your order being cancelled</p>
+                    </span>
+                    <div class="complete-order">
+                        <span>
+                            <p>How would you like</p>
+                            <p>to complete you order?</p>
+                        </span>
+                    </div>
+                    <div class="complete-order-button" >
+                        <div class="complete-button" onclick="sendOrderViaWhatsApp()">
+                            <img src="images/icons/3146791_whatsapp_logo_icon.png" alt="whatsapp image">
+                            <span class="sendtowhatsapp" >
+                                <p>Send to whatsapp</p>
+                                <p>Finalize your order with whatsapp</p>
+                            </span>
+                        </div>
+                        <div class="complete-button" onclick="sendOrderViaInstagram()">
+                            <img src="images/icons/images.jpeg" alt="instagram image">
+                            <span>
+                                <p>Send to instagram</p>
+                                <p>Finalize your order with instagram</p>
+                            </span>
+                        </div>
+                    </div>
+                    <span class="goback">Previous page</span>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="add-to-cart">
+        <div class="items">
+            <P>0</P>
+        </div>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="views-con">
+        <div class="align">
+            <div class="close">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                </svg>
+                
+            </div>
+            <div class="view-items">
+                <p class="view-item-name" ></p>
+                <div class="images ">
+                    <div class="view-item-images"></div>
+                </div>
+                <div class="size">
+                    <p>Sizes:</p>
+                    <div class="flexc">
+                        <p>M</p>
+                        <p>L</p>
+                        <p>XL..</p>
+                    </div>
+                    <p>In Stock</p>
+                    <p class="view-item-price">NGN 15,000.00</p>
+                </div>
+                <div class="text">
+                    <div class="flexs">
+                        <p>Product Category:</p>
+                        <p class="view-item-type"></p>
+                    </div>
+                    <div class="flexs">
+                        <p>Description:</p>
+                        <p class="view-item-description"></p>
+                    </div>
+                </div>
+                <div class="add-button">
+                    <p class="view-cart-add-button">View Cart</p>
+                    <p class="addtocart">Add to cart</p>
+    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="sidebar hide">
+        <div class="sidebar-con">
+            <div class="flexs logo">
+                <img src="images/icons/logo-black.png" alt="">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <li class="drop">
+                    <div class="flexs">
+                        <p>Shop</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="textt">
+                        <a href="shop.html?click=6"><p>Tops</p></a>
+                        <a href="shop.html?click=4"><p>Shirt</p></a>
+                        <a href="shop.html?click=1"><p>Pants</p></a>
+                        <a href="shop.html?click=2"><p>Shorts</p></a>
+                    </div>
+                </li>
+                <a href="index.html"><li>Men</li></a>
+                <a href="women.html"><li>Women</li></a>
+                <a href="contact.html"><li>Contact us</li></a>
+            </ul>
+            <div class="sidebar-bottom">
+                <form action="https://formsubmit.co/9741008c1db46a878b78e553840268f6" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="box">
+                <input type="hidden" name="_cc" value="Porceslymeafrofit@gmail.com">
+                    <div class="newsletter-con">
+                    <p>Newsletter</p>
+                    <p>Join our newsletter and get to know about discounts, drops, offers and much more</p>
+                    <div class="newsletter">
+                        <input type="text" placeholder="Email"><br>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="locate loc">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>10, atunrashe street, ishaga road, surulere</p>
+                
+            </div>
+            <div class="locate">
+                <i class="fa-solid fa-envelope"></i>
+               <p>Porceslymeafrofit@gmail.com</p> 
+            </div>
+            <div class="flexc ee">
+                <p>Quick Links</p>
+                
+                    <div class="flexc">
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/porceslyme_afrofits?igsh=MW9oOW1mbTRxYzZocw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-solid fa-phone"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-bar">
+        <div class="top-bar-con flexs">
+            <div class="icons">
+                <a href="">
+                <img src="images/icons/facebook.png" alt="img-facebook">
+
+                </a>
+                <a href="https://www.instagram.com/porceslyme_afrofits?igsh=MW9oOW1mbTRxYzZocw%3D%3D&utm_source=qr">
+                <img src="images/icons/instagram.png" alt="img-instagram">
+                    
+                </a>
+                <a href="">
+                <img src="images/icons/whatsapp.png" alt="img-whatsapp">
+                </a>
+                <a href="">
+                <img src="images/icons/gmail.png" alt="img-whatsapp">
+                </a>
+            </div>
+            <div class="col">
+                <p><span>Latest Collection: </span>  2024 Elegant Collection</p>
+            </div>
+            <div class="pol">
+                <p>Porceslymeafrofit@gmail.com | +234 813 190 3787</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="navbar-con flexs">
+            <div class="">
+                <a href="index.html"><img src="images/icons/logo-black.png" alt=""></a>
+            </div>
+            <ul class="flexc">
+                <a href="index.html"><li>Home</li></a>
+                <a href="men.html"><li>Men</li></a>
+                <a href="women.html"><li>Women</li></a>
+                <a href="shop.html"><li>Collection</li></a>
+            </ul>
+            <div class="contact">
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="hamburg">  
+                <div class="inner-ham "></div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="for-all">
+        <div class="middle flexc">
+             <div class="text">
+                <div class="inner-text">
+                    <p>Shop - All Exclusive Items</p>
+                    <p>Trends</p>
+                    <p>100% Premium Quality</p>
+                </div>
+             </div>
+             <div class="img"><img src="images/back@4x.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="shop-links">
+        <a href="index.html">Home</a>
+        <p>/</p>
+        <a href="shop.html">Shop</a>
+        <p>/</p>
+        <a href="men.html">Men</a>
+    </div>
+
+    <div class="">
+        <div class="categories">
+            <p>Categories:</p>
+            <select onchange="window.location.href=this.value;">
+                <option value="shop.html">All Items</option>
+                <option value="men.html">Men</option>
+                <option value="women.html">Women</option>
+                <option value="headear.html">Cap / head gear</option>
+                <option value="sock.html">Socks</option>
+                <option value="winter.html">winter-sales</option>
+            </select>
+        </div>
+
+        <!-- <div class="categories">
+            <p>Sub Categories:</p>
+            <select onchange="window.location.href=this.value;">
+                <option value="shop.html">Tops</option>
+                <option value="men.html">sh</option>
+                <option value="men.html">Women</option>
+                <option value="men.html">Cap / head gear</option>
+                <option value="men.html">Socks</option>
+                <option value="men.html">winter-sales</option>
+            </select>
+        </div> -->
+    </div>
+    
+
+
+    <div class="exclusive-items men">
+        <div class="middle">
+            <p>- Exclusive Collection -</p>
+                <ul>
+                    
+                </ul>
+
+        </div>
+    </div>
+    
+    
+
+
+
+
+    <div class="footer">
+       
+    </div>
+    <script src="js/selecting.js"></script>
+
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://www.porceslyme.store/images/back.jpg" />
+    <title>PCY | Home</title>
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <link rel="shortcut icon" href="images/icons/logo-black.png" type="image/x-icon">
+    <script src="js/eye.js" defer></script>
+    <script src="js/footer.js" defer></script>
+</head>
+<body>
+    
+    <div class="sidebar hide">
+        <div class="sidebar-con">
+            <div class="flexs logo">
+                <img src="images/icons/logo-black.png" alt="">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <li class="drop">
+                    <div class="flexs">
+                        <p>Shop</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="textt">
+                        <a href="shop.html?click=6"><p>Tops</p></a>
+                        <a href="shop.html?click=4"><p>Shirt</p></a>
+                        <a href="shop.html?click=1"><p>Pants</p></a>
+                        <a href="shop.html?click=2"><p>Shorts</p></a>
+                    </div>
+                </li>
+                <a href="index.html"><li>Men</li></a>
+                <a href="index.html"><li>Women</li></a>
+                <a href="contact.html"><li>Contact us</li></a>
+            </ul>
+            <div class="sidebar-bottom">
+                <form action="https://formsubmit.co/9741008c1db46a878b78e553840268f6" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="box">
+                <input type="hidden" name="_cc" value="Porceslymeafrofit@gmail.com">
+                    <div class="newsletter-con">
+                    <p>Newsletter</p>
+                    <p>Join our newsletter and get to know about discounts, drops, offers and much more</p>
+                    <div class="newsletter">
+                        <input type="text" placeholder="Email"><br>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="locate loc">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>10, atunrashe street, ishaga road, surulere</p>
+                
+            </div>
+            <div class="locate">
+                <i class="fa-solid fa-envelope"></i>
+               <p>Porceslymeafrofit@gmail.com</p> 
+            </div>
+            <div class="flexc ee">
+                <p>Quick Links</p>
+                
+                    <div class="flexc">
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/porceslyme_afrofits?igsh=MW9oOW1mbTRxYzZocw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-solid fa-phone"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-bar">
+        <div class="top-bar-con flexs">
+            <div class="icons">
+                <a href="">
+                <img src="images/icons/facebook.png" alt="img-facebook">
+
+                </a>
+                <a href="https://www.instagram.com/porceslyme_afrofits?igsh=MW9oOW1mbTRxYzZocw%3D%3D&utm_source=qr">
+                <img src="images/icons/instagram.png" alt="img-instagram">
+                    
+                </a>
+                <a href="">
+                <img src="images/icons/whatsapp.png" alt="img-whatsapp">
+                </a>
+                <a href="">
+                <img src="images/icons/gmail.png" alt="img-whatsapp">
+                </a>
+            </div>
+            <div class="col">
+                <p><span>Latest Collection: </span>  2024 Elegant Collection</p>
+            </div>
+            <div class="pol">
+                <p>Porceslymeafrofit@gmail.com | +234 813 190 3787</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="navbar-con flexs">
+            <div class="">
+                <a href="index.html"><img src="images/icons/logo-black.png" alt=""></a>
+            </div>
+            <ul class="flexc">
+                <a href="index.html"><li>Home</li></a>
+                <a href="men.html"><li>Men</li></a>
+                <a href="women.html"><li>Women</li></a>
+                <a href="shop.html"><li>Collection</li></a>
+            </ul>
+            <div class="contact">
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="hamburg">  
+                <div class="inner-ham "></div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="for-all">
+        <div class="middle flexc">
+             <div class="text">
+                <div class="inner-text">
+                    <p>Men's Fashion</p>
+                    <p>Trends</p>
+                    <p>100% Premium Quality</p>
+                </div>
+             </div>
+             <div class="img"><img src="images/men-aura@4x.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="shop-links">
+        <a href="index.html">Home</a>
+        <p>/</p>
+        <a href="shop.html">Men</a>
+    </div>
+
+    <div class="categories">
+        <p>Categories:</p>
+        <select onchange="window.location.href=this.value;">
+            <option value="men.html">Men</option>
+            <option value="shop.html">All Items</option>
+            <option value="women.html">Women</option>
+            <option value="headear.html">Cap / head gear</option>
+            <option value="sock.html">Socks</option>
+            <option value="winter.html">winter-sales</option>
+        </select>
+    </div>
+
+    <div class="exclusive-items shop">
+        <div class="middle">
+            <p>- Exclusive Collection -</p>
+                <ul>
+                    
+                </ul>
+
+    <div class="exclusive-items">
+        <div class="middle">
+                <ul>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/1.jpg" alt="">
+                            <img src="images/1b.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                                
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>Beach-Stream Addiction</p>
+                            <a href="products/beach.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/2a.jpg" alt="">
+                            <img src="images/2aa.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                                
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>St-sauce bay-button sweatshirt</p>
+                            <a href="products/st-sauce.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="li-con">
+                            <img src="images/3a.jpg" alt="">
+                            <img src="images/3aaaa.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>Omi-aro zip through hoodie</p>
+                            <a href="products/omi-aro.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/4aaa.jpg" alt="">
+                            <img src="images/4aa.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>Cold patch winter hoodie</p>
+                            <a href="products/Coldpatch.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/5a.jpg" alt="">
+                            <img src="images/5aa.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>Planet eclipse t-shirt</p>
+                            <a href="products/planet.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/6a.jpg" alt="">
+                            <img src="images/6aa.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>Memento mori hoodie</p>
+                            <a href="products/memento.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/7a.jpg" alt="">
+                            <img src="images/7aa.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>PCY TSHIRT GYM SET</p>
+                            <a href="products/gymfit.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/13a.jpg" alt="">
+                            <img src="images/13a.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>RASH CUT DENIM PANTS</p>
+                            <a href="products/one-image/rash.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/14a.jpg" alt="">
+                            <img src="images/14a.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>BAY DENIM JORTS</p>
+                            <a href="products/one-image/bay.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/15a.jpg" alt="">
+                            <img src="images/15a.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>Unisex</p>
+                            <p>Crotch knit shorts</p>
+                            <a href="products/one-image/crotch.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/17a.jpg" alt="">
+                            <img src="images/17aa.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>Custom long</p>
+                            <a href="products/one-image/cusom.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/18a.jpg" alt="">
+                            <img src="images/18aa.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>Custom Jorts</p>
+                            <a href="products/one-image/jort.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/19a.jpg" alt="">
+                            <img src="images/19aa.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>custom PCY tennis short</p>
+                            <a href="products/one-image/tennis.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/20a.jpg" alt="">
+                            <img src="images/20a.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>For Men</p>
+                            <p>FELA FREEDOM CROP-T</p>
+                            <a href="products/one-image/fela.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="li-con">
+                            <img src="images/21a.jpg" alt="">
+                            <img src="images/21a.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>Unisex</p>
+                            <p>Rare piece of you Tshirt</p>
+                            <a href="products/one-image/rare.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/22a.jpg" alt="">
+                            <img src="images/22a.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>Unisex</p>
+                            <p>PCY tennis shorts</p>
+                            <a href="products/one-image/tennis2.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/23a.jpg" alt="">
+                            <img src="images/23a.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>Unisex</p>
+                            <p>Defined logo short</p>
+                            <a href="products/one-image/define.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/24.jpg" alt="">
+                            <img src="images/24.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>Unisex</p>
+                            <p>Retro-lasgidi jersey</p>
+                            <a href="products/one-image/jersey.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/25.jpg" alt="">
+                            <img src="images/25.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>Unisex</p>
+                            <p>VICTIMLESS EMBROIDER T</p>
+                            <a href="products/one-image/victim.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-con">
+                            <img src="images/26.jpg" alt="">
+                            <img src="images/26.jpg" alt="">
+                            <div class="text">
+                                <p>Sale</p>
+                            </div>
+                                
+                        </div>
+                        <div class="text-li">
+                            <p>Unisex</p>
+                            <p>RYCH YUTE CROP T</p>
+                            <a href="products/one-image/yute.html">
+                                View item
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="delivery">
+        <div class="middle">
+            <div class="delivery-text">
+                <i class="fa-solid fa-truck-fast"></i>
+                <p>Fast delivery</p>
+            </div>
+            <div class="delivery-text">
+                <i class="fa-solid fa-medal"></i>
+                <p>High Quality Material</p>
+            </div>
+            <div class="delivery-text">
+                <i class="fa-solid fa-headset"></i>
+                <p>24/7 Online</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+            
+    </div>
+
+    <script src="js/selecting.js"></script>
+</body>
+</html> -->
