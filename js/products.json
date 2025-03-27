@@ -1,0 +1,342 @@
+[
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Beach-Stream Addiction",
+        "images": [
+            "images/1b.jpg", "images/1.jpg", "images/1c.jpg", "images/1d.jpg"
+        ],
+        "description": "Top & Cap",
+        "price": 1000
+    },
+    {   
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "St-sauce bay-button sweatshirt",
+        "images": [
+            "images/2a.jpg", "images/2aa.jpg", "images/2aaa.jpg", "images/2aaaa.jpg"
+        ],
+        "description": "Top & Cap",
+        "price": 6000
+    },
+    {   
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Omi-aro zip through hoodie",
+        "images": [
+            "images/3a.jpg", "images/3aa.jpg", "images/3aaa.jpg", "images/3aaaa.jpg"
+        ],
+        "description": "Hoodie",
+        "price": 2000
+    },
+    {
+        "tag": "top",
+        "type": "Women Wear" ,
+        "name": "Porceslyme crop T",
+        "images": [
+            "images/2.png", "images/2b.png", "images/4bb.jpg", "images/4bbb.jpg"
+        ],
+        "description": "Hoodie",
+        "price": 500
+    },
+    {
+        "tag": "top",
+        "type": "Women Wear" ,
+        "name": "Crotched-knit armless tank",
+        "images": [
+            "images/8a.jpg", "images/8aa.jpg", "images/8aaa.jpg", "images/8aaaa.jpg"
+        ],
+        "description": "Hoodie",
+        "price": 500
+    },
+    {
+        "tag": "top",
+        "type": "Women Wear" ,
+        "name": "Cassandria tennis crop T",
+        "images": [
+            "images/3.png", "images/3b.png", "images/4bb.jpg", "images/4bbb.jpg"
+        ],
+        "description": "Hoodie",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Cold patch winter hoodie",
+        "images": [
+            "images/4a.jpg", "images/4aa.jpg", "images/4aaa.jpg", "images/4aaaa.jpg"
+        ],
+        "description": "Hoodie",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Planet eclipse t-shirt",
+        "images": [
+            "images/5a.jpg", "images/5aa.jpg", "images/5aaa.jpg", "images/5aaaa.jpg"
+        ],
+        "description": "Hoodie",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Memento mori hoodie",
+        "images": [
+            "images/6a.jpg", "images/6aa.jpg", "images/6aaa.jpg", "images/6aaaa.jpg"
+        ],
+        "description": "Hoodie",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "PCY TSHIRT GYM SET",
+        "images": [
+            "images/7a.jpg", "images/7aa.jpg", "images/7aaa.jpg", "images/7aaaa.jpg"
+        ],
+        "description": "Hoodie",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "RASH CUT DENIM PANTS",
+        "images": [
+            "images/13a.jpg", "images/13a.jpg"
+        ],
+        "description": "Trouser",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "BAY DENIM JORTS",
+        "images": [
+            "images/14a.jpg", "images/14a.jpg"
+        ],
+        "description": "Trouser",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Custom Long",
+        "images": [
+            "images/18a.jpg", "images/18aa.jpg", "images/18aaa.jpg"
+        ],
+        "description": "Trouser",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Custom Jorts",
+        "images": [
+            "images/17a.jpg", "images/17aa.jpg", "images/17aaa.jpg"
+        ],
+        "description": "Trouser",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Custom PCY tennis short",
+        "images": [
+            "images/19a.jpg", "images/19aa.jpg"
+        ],
+        "description": "Trouser",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "FELA FREEDOM CROP-T",
+        "images": [
+            "images/20a.jpg", "images/20a.jpg"
+        ],
+        "description": "Crop top",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Rare piece of you T-shirt",
+        "images": [
+            "images/21a.jpg", "images/21a.jpg"
+        ],
+        "description": "Round Neck",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "PCY tennis shorts",
+        "images": [
+            "images/22a.jpg", "images/22a.jpg"
+        ],
+        "description": "Shorts",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "Crotch knit shorts",
+        "images": [
+            "images/15a.jpg", "images/15a.jpg"
+        ],
+        "description": "Shorts",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Men wears" ,
+        "name": "PCY tennis shorts",
+        "images": [
+            "images/23a.jpg", "images/23a.jpg"
+        ],
+        "description": "Shorts",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Women Wear" ,
+        "name": "Pair Wolf",
+        "images": [
+            "images/10a.jpg", "images/10aaaaa.jpg", "images/10aaa.jpg", "images/10aaaa.jpg"
+        ],
+        "description": "Hoodie",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Women Wear" ,
+        "name": "JESUS-SAVES CROP T (BLACK)",
+        "images": [
+            "images/11a.jpg", "images/11aa.jpg", "images/11aaa.jpg", "images/11aaaa.jpg"
+        ],
+        "description": "Top and skirt",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Women Wear" ,
+        "name": "Urban Jorts",
+        "images": [
+            "images/6b.jpg", "images/6bb.jpg", "images/6.jpg", "images/11aaaa.jpg"
+        ],
+        "description": "Top and skirt",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Women Wear" ,
+        "name": "el_savior skirt",
+        "images": [
+            "images/12a.jpg", "images/12aa.jpg"
+        ],
+        "description": "Top and skirt",
+        "price": 3000
+    },
+    {
+        "tag": "top",
+        "type": "Women Wear" ,
+        "name": "Wild gut embriodered jorts",
+        "images": [
+            "images/17.jpg", "images/17.jpg"
+        ],
+        "description": "Top and skirt",
+        "price": 3000
+    },
+    {
+        "tag": "cap",
+        "type": "Head Gear" ,
+        "name": "Panama",
+        "images": [
+            "images/cap1.jpg", "images/cap1.jpg"
+        ],
+        "description": "Caps",
+        "price": 3000
+    },
+    {
+        "tag": "cap",
+        "type": "Head Gear" ,
+        "name": "Panama",
+        "images": [
+            "images/cap2.jpg", "images/cap2.jpg"
+        ],
+        "description": "Caps",
+        "price": 3000
+    },
+    {
+        "tag": "cap",
+        "type": "Head Gear" ,
+        "name": "Panama",
+        "images": [
+            "images/cap3.jpg", "images/cap3.jpg"
+        ],
+        "description": "Caps",
+        "price": 3000
+    },
+    {
+        "tag": "cap",
+        "type": "Head Gear" ,
+        "name": "Panama",
+        "images": [
+            "images/cap4.jpg", "images/cap4.jpg"
+        ],
+        "description": "Caps",
+        "price": 3000
+    },
+    {
+        "tag": "cap",
+        "type": "Head Gear" ,
+        "name": "Panama",
+        "images": [
+            "images/cap5.jpg", "images/cap5.jpg"
+        ],
+        "description": "Caps",
+        "price": 3000
+    },
+    {
+        "tag": "cap",
+        "type": "Head Gear" ,
+        "name": "Panama",
+        "images": [
+            "images/cap6.jpg", "images/cap6.jpg"
+        ],
+        "description": "Caps",
+        "price": 3000
+    },
+    {
+        "tag": "socks",
+        "type": "Socks" ,
+        "name": "Custom Long Socks",
+        "images": [
+            "images/s1.jpg", "images/s2.jpg"
+        ],
+        "description": "Socks",
+        "price": 3000
+    },
+    {
+        "tag": "socks",
+        "type": "Socks" ,
+        "name": "Plain Custom Long Socks",
+        "images": [
+            "images/5.jpg", "images/s3.jpg"
+        ],
+        "description": "Socks",
+        "price": 3000
+    },
+    {
+        "tag": "socks",
+        "type": "Socks" ,
+        "name": "Jean Custom Long Socks",
+        "images": [
+            "images/s3.jpg", "images/s3.jpg"
+        ],
+        "description": "Socks",
+        "price": 3000
+    }
+]

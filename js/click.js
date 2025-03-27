@@ -1,67 +1,23 @@
+let left = document.querySelector('.left')
+let right = document.querySelector('.right')
+let butt = document.querySelector('.butt ul')
+let buttLi = document.querySelectorAll('.butt ul li')
+let currentIndex = 0;
+let buttLiwidth = buttLi[0].clientWidth + 5
+const buttLilength = buttLi.length -2;
 
-    window.addEventListener('load', function() {
-        // Check if the URL contains the query parameter `click=true`
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('click') === '1') {
-            // Find the element you want to click
-            const element = document.querySelector('#pant'); // Replace with your selector
-            if (element) {
-                element.click(); // Perform the click
-            }
-        }
-    });
-    window.addEventListener('load', function() {
-        // Check if the URL contains the query parameter `click=true`
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('click') === '3') {
-            // Find the element you want to click
-            const element = document.querySelector('#jacket'); // Replace with your selector
-            if (element) {
-                element.click(); // Perform the click
-            }
-        }
-    });
-    window.addEventListener('load', function() {
-        // Check if the URL contains the query parameter `click=true`
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('click') === '4') {
-            // Find the element you want to click
-            const element = document.querySelector('#shirt'); // Replace with your selector
-            if (element) {
-                element.click(); // Perform the click
-            }
-        }
-    });
-    window.addEventListener('load', function() {
-        // Check if the URL contains the query parameter `click=true`
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('click') === '5') {
-            // Find the element you want to click
-            const element = document.querySelector('#round'); // Replace with your selector
-            if (element) {
-                element.click(); // Perform the click
-            }
-        }
-    });
-    window.addEventListener('load', function() {
-        // Check if the URL contains the query parameter `click=true`
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('click') === '2') {
-            // Find the element you want to click
-            const element = document.querySelector('#shorts'); // Replace with your selector
-            if (element) {
-                element.click(); // Perform the click
-            }
-        }
-    });
-    window.addEventListener('load', function() {
-        // Check if the URL contains the query parameter `click=true`
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('click') === '6') {
-            // Find the element you want to click
-            const element = document.querySelector('#tops'); // Replace with your selector
-            if (element) {
-                element.click(); // Perform the click
-            }
-        }
-    });
+function updateCarousel() {
+             butt.style.transform = `translateX(-${currentIndex * buttLiwidth}px)`;
+}
+
+left.addEventListener('click', function() {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : buttLilength - 1;
+            updateCarousel();
+});
+right.addEventListener('click', function() {
+            currentIndex = (currentIndex < buttLilength - 1) ? currentIndex + 1 : 0;
+            updateCarousel();
+});
+
+// 
+
